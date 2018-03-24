@@ -1,0 +1,98 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: darkgoldenrod;
+	font-size: 75%;
+}
+#titleimage {
+  margin-left: 32.5%;
+}
+.extra{
+  font-style: italic;
+  font-size: 0.75em;
+}
+header,
+main {
+	background-color: green;
+	font-size: 1.6em;
+  align: center;
+}
+footer {
+  background-color: darkgoldenrod;
+  font-size: 1.3em;
+  align: center;
+}
+header {
+	padding: 1.25em 0;
+}
+header h1 {
+  background-color: darkgreen;
+	text-align: center;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+h1, h2 {
+	margin: 0;
+  text-align: center;
+  align: center;
+  font-size: 2.5em;
+  background-color: darkgreen;
+}
+
+a {
+  color: darkgreen;
+}
+
+main h2 {
+	padding: 0.5em 0 0.5em 0.5em;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+  font-size: 1.5em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1em;
+  text-align: center;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+  align: center;
+  max-width: 100%;
+}
